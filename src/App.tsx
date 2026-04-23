@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import HomePage from './pages/Home'
+import ServicesPage from './pages/Services'
 import AboutPage from './pages/About'
-import SolutionsPage from './pages/Solutions'
 import ContactPage from './pages/Contact'
 
 export default function App() {
@@ -10,8 +10,8 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/solutions" element={<SolutionsPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Route>
     </Routes>

@@ -55,10 +55,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Zap className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">AI Strategy Development</CardTitle>
+              <CardTitle className="text-lg">Strategic Consulting</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Transform raw data into actionable intelligence with custom AI roadmaps tailored to your business objectives.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Data-driven roadmaps tailored to your unique business objectives and market position.</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -66,10 +66,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Shield className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Process Optimization</CardTitle>
+              <CardTitle className="text-lg">Digital Transformation</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Identify hidden inefficiencies and streamline operations using lean methodology and automation tools.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Seamless integration of emerging technologies to modernize operations and customer experiences.</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -77,10 +77,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Globe className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Cybersecurity Resilience</CardTitle>
+              <CardTitle className="text-lg">Process Optimization</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Protect critical assets with proactive threat modeling and industry-compliant security frameworks.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Streamline workflows and eliminate inefficiencies with our lean methodology framework.</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -88,10 +88,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Sparkles className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Sustainable Growth Planning</CardTitle>
+              <CardTitle className="text-lg">Innovation Labs</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Build scalable business models that balance profitability with environmental and social responsibility.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Co-create disruptive solutions through rapid prototyping and user-centered design sprints.</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -99,10 +99,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Rocket className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Digital Transformation</CardTitle>
+              <CardTitle className="text-lg">AI Integration</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Modernize legacy systems with seamless cloud integration and intuitive user experience design.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Implement intelligent automation to enhance decision-making and predictive capabilities.</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -110,10 +110,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Heart className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Leadership Acceleration</CardTitle>
+              <CardTitle className="text-lg">Sustainability Strategy</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Develop next-generation executives through strategic coaching and change management expertise.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Develop environmentally conscious business models that drive long-term value creation.</p>
             </CardContent>
           </Card>
         </div>
@@ -165,34 +165,14 @@ function TestimonialsSection3() {
                   <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                 ))}
               </div>
-              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Within six months, their process re-engineering reduced our operational costs by 37% without sacrificing quality.</p>
-              <div className="flex items-center gap-3 pt-3 border-t border-border">
-                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
-                  V
-                </div>
-                <div>
-                  <p className="font-semibold text-sm text-foreground">Victoria Chen</p>
-                  <p className="text-xs text-muted-foreground">COO, Global Logistics Inc.</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-          <Card className="bg-card border border-primary/10 shadow-sm hover:shadow-md transition-shadow duration-300">
-            <CardContent className="pt-6 space-y-4">
-              <div className="text-5xl text-primary/15 font-serif leading-none select-none">&ldquo;</div>
-              <div className="flex gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-primary text-primary" />
-                ))}
-              </div>
-              <p className="text-muted-foreground italic -mt-1 leading-relaxed">The AI implementation didn&#39;t just improve efficiency - it completely reshaped our market positioning and customer engagement.</p>
+              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Within six months, their AI implementation reduced operational costs by 37% while improving service quality. A game-changer for our retail chain.</p>
               <div className="flex items-center gap-3 pt-3 border-t border-border">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
                   M
                 </div>
                 <div>
                   <p className="font-semibold text-sm text-foreground">Marcus Reynolds</p>
-                  <p className="text-xs text-muted-foreground">Chief Digital Officer, Finova Group</p>
+                  <p className="text-xs text-muted-foreground">COO, Global Retail Partners</p>
                 </div>
               </div>
             </CardContent>
@@ -205,14 +185,34 @@ function TestimonialsSection3() {
                   <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                 ))}
               </div>
-              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Their unique problem-solving methodology uncovered opportunities we&#39;d overlooked for years. The ROI exceeded projections by 220%.</p>
+              <p className="text-muted-foreground italic -mt-1 leading-relaxed">The innovation sprint redefined our product development process. We&#39;ve launched three new revenue streams from their recommendations.</p>
               <div className="flex items-center gap-3 pt-3 border-t border-border">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
-                  S
+                  E
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-foreground">Sophie Laurent</p>
-                  <p className="text-xs text-muted-foreground">CEO, MedTech Innovations</p>
+                  <p className="font-semibold text-sm text-foreground">Elena Rodriguez</p>
+                  <p className="text-xs text-muted-foreground">VP Product Innovation, TechFusion Inc.</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+          <Card className="bg-card border border-primary/10 shadow-sm hover:shadow-md transition-shadow duration-300">
+            <CardContent className="pt-6 space-y-4">
+              <div className="text-5xl text-primary/15 font-serif leading-none select-none">&ldquo;</div>
+              <div className="flex gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                ))}
+              </div>
+              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Their sustainability framework didn&#39;t just cut our carbon footprint—it attracted eco-conscious consumers and boosted brand value by 22%.</p>
+              <div className="flex items-center gap-3 pt-3 border-t border-border">
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
+                  D
+                </div>
+                <div>
+                  <p className="font-semibold text-sm text-foreground">David Chen</p>
+                  <p className="text-xs text-muted-foreground">CEO, Verde Manufacturing</p>
                 </div>
               </div>
             </CardContent>

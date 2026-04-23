@@ -50,9 +50,9 @@ function ContentSection1() {
         <div className="space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">Content</h2>
           <div className="prose prose-gray max-w-none text-muted-foreground space-y-4">
-            <p>While others offer quick fixes, we engineer lasting change through our proprietary DIVE Methodology—Diagnose, Innovate, Validate, Elevate. This evidence-based framework ensures every solution is rigorously tested against real-world variables before implementation.</p>
-            <p>Our team includes former NASA engineers, behavioral economists, and industry specialists who speak your language fluently. This multidisciplinary approach allows us to see connections others miss and develop solutions that work across departments and systems.</p>
-            <p>Transparency is non-negotiable. You&#39;ll receive continuous progress tracking with quantifiable milestones, not just vague promises. We measure success by your business outcomes, not billable hours.</p>
+            <p>At Solutions Lab, we believe technology should serve people, not the other way around. Every project begins with immersive human insights—conducting ethnographic research, stakeholder empathy sessions, and frontline employee interviews to understand the real pain points beneath surface-level symptoms.</p>
+            <p>This methodology consistently reveals unexpected opportunities: when a healthcare client was struggling with patient retention, we discovered 68% of issues stemmed from administrative friction rather than clinical care. By redesigning their scheduling system with patient psychology in mind, we boosted retention by 41% within one year.</p>
+            <p>Our secret? We treat business problems as human problems. This perspective generates solutions that teams actually adopt and customers genuinely love, turning implementation challenges into adoption accelerators.</p>
           </div>
 
         </div>
@@ -77,10 +77,10 @@ function TeamSection2() {
           <Card className="text-center overflow-hidden bg-card shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
             <CardContent className="pt-8 pb-6 space-y-4">
               <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center ring-4 ring-primary/10 group-hover:ring-primary/20 transition-all duration-300">
-                <span className="text-2xl font-bold text-primary-foreground">DAT</span>
+                <span className="text-2xl font-bold text-primary-foreground">DAS</span>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-foreground">Dr. Aris Thorne</h3>
+                <h3 className="text-lg font-semibold text-foreground">Dr. Anya Sharma</h3>
                 <p className="text-sm text-muted-foreground">Chief Innovation Officer</p>
               </div>
             </CardContent>
@@ -88,33 +88,33 @@ function TeamSection2() {
           <Card className="text-center overflow-hidden bg-card shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
             <CardContent className="pt-8 pb-6 space-y-4">
               <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center ring-4 ring-primary/10 group-hover:ring-primary/20 transition-all duration-300">
-                <span className="text-2xl font-bold text-primary-foreground">PS</span>
+                <span className="text-2xl font-bold text-primary-foreground">MT</span>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-foreground">Priya Sharma</h3>
-                <p className="text-sm text-muted-foreground">Director of Behavioral Strategy</p>
+                <h3 className="text-lg font-semibold text-foreground">Michael Thorne</h3>
+                <p className="text-sm text-muted-foreground">Head of Digital Transformation</p>
               </div>
             </CardContent>
           </Card>
           <Card className="text-center overflow-hidden bg-card shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
             <CardContent className="pt-8 pb-6 space-y-4">
               <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center ring-4 ring-primary/10 group-hover:ring-primary/20 transition-all duration-300">
-                <span className="text-2xl font-bold text-primary-foreground">DC</span>
+                <span className="text-2xl font-bold text-primary-foreground">SL</span>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-foreground">David Chen</h3>
-                <p className="text-sm text-muted-foreground">Lead Systems Architect</p>
+                <h3 className="text-lg font-semibold text-foreground">Sophie Laurent</h3>
+                <p className="text-sm text-muted-foreground">Behavioral Economics Lead</p>
               </div>
             </CardContent>
           </Card>
           <Card className="text-center overflow-hidden bg-card shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
             <CardContent className="pt-8 pb-6 space-y-4">
               <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center ring-4 ring-primary/10 group-hover:ring-primary/20 transition-all duration-300">
-                <span className="text-2xl font-bold text-primary-foreground">ER</span>
+                <span className="text-2xl font-bold text-primary-foreground">DO</span>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-foreground">Elena Rodriguez</h3>
-                <p className="text-sm text-muted-foreground">Head of Impact Measurement</p>
+                <h3 className="text-lg font-semibold text-foreground">David Okoro</h3>
+                <p className="text-sm text-muted-foreground">Sustainability Strategy Director</p>
               </div>
             </CardContent>
           </Card>
@@ -132,27 +132,27 @@ function StatsSection3() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center space-y-2 md:border-r md:border-primary-foreground/20 px-4">
             <div className="text-4xl md:text-5xl font-extrabold text-primary-foreground">
+              <AnimatedCounter value="12.6x" />
+            </div>
+            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Average ROI for clients</div>
+          </div>
+          <div className="text-center space-y-2 md:border-r md:border-primary-foreground/20 px-4">
+            <div className="text-4xl md:text-5xl font-extrabold text-primary-foreground">
+              <AnimatedCounter value="250+" />
+            </div>
+            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Enterprise partnerships</div>
+          </div>
+          <div className="text-center space-y-2 md:border-r md:border-primary-foreground/20 px-4">
+            <div className="text-4xl md:text-5xl font-extrabold text-primary-foreground">
               <AnimatedCounter value="92%" />
             </div>
-            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Client Retention Rate</div>
-          </div>
-          <div className="text-center space-y-2 md:border-r md:border-primary-foreground/20 px-4">
-            <div className="text-4xl md:text-5xl font-extrabold text-primary-foreground">
-              <AnimatedCounter value="14.8x" />
-            </div>
-            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Average ROI Delivered</div>
-          </div>
-          <div className="text-center space-y-2 md:border-r md:border-primary-foreground/20 px-4">
-            <div className="text-4xl md:text-5xl font-extrabold text-primary-foreground">
-              <AnimatedCounter value="42" />
-            </div>
-            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Patented Methodologies</div>
+            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Client retention rate</div>
           </div>
           <div className="text-center space-y-2  px-4">
             <div className="text-4xl md:text-5xl font-extrabold text-primary-foreground">
-              <AnimatedCounter value="27" />
+              <AnimatedCounter value="47" />
             </div>
-            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Industries Transformed</div>
+            <div className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">Countries served</div>
           </div>
         </div>
       </div>
